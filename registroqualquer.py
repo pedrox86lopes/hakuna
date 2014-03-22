@@ -10,7 +10,7 @@ values = {'Access Code' : '111 111 1111',
           'School/Organization' : 'aaa' }
 print('macacovelho')
 url = urllib.urlencode(values)
-data = data.encode('utf-8') # some bytes nigga
+data = data.encode('utf-8') # some bytes 
 req = urllib(url, data)
 response = urllib.urlopen(req)
 the_page = response.read()
